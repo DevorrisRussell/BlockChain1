@@ -38,4 +38,5 @@ let pelhamCoin = new Blockchain();
 pelhamCoin.addBlock(new Block(1, "02/19/2021", { amount: 4 }));
 pelhamCoin.addBlock(new Block(2, "03/17/2021", { amount: 20 }));
 
+pelhamCoin.addBlock(new Block(2, "03/22/2021", { amount: 200 }));
 console.log(JSON.stringify(pelhamCoin, null, 4));
